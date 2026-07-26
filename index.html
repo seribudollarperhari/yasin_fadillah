@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasin Fadillah</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        :root {
+            --primary-color: #2D3748;
+            --accent-color: #047857;
+            --bg-color: #F7FAFC;
+            --text-color: #4A5568;
+            --border-color: #E2E8F0;
+            --font-main: 'Inter', sans-serif;
+            --font-arabic: 'Amiri', serif;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: #FFFFFF;
+            padding: 40px;
+            margin: 40px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-align: center;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: var(--accent-color);
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .verse-number {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-right: 8px;
+        }
+
+        .prayer-box {
+            background-color: #ECFDF5;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            font-weight: 500;
+            color: #065F46;
+        }
+        
+        .prayer-box strong {
+            color: #064E3B;
+        }
+
+        .note {
+            font-style: italic;
+            color: #718096;
+            font-size: 0.95rem;
+        }
+
+        .arabic-text {
+            font-family: var(--font-arabic);
+            font-size: 1.4rem;
+            text-align: right;
+            direction: rtl;
+            line-height: 2.2;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .section-break {
+            height: 1px;
+            background: var(--border-color);
+            margin: 40px 0;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 0;
+                padding: 20px;
+                border-radius: 0;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+        
+        /* Utility classes */
+        .text-center { text-align: center; }
+        .font-bold { font-weight: bold; }
+        .italic { font-style: italic; }
+        .mt-4 { margin-top: 1rem; }
+        .mb-4 { margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Yasin Fadillah</h1>
+        </header>
+
+        <h2>=== Al-Fatiha ===</h2>
+        
+        <p><span class="verse-number">1.</span> <strong>yā sīn (7x)</strong></p>
+        <p><span class="verse-number">2.</span> wal-qur`ānil-ḥakīm</p>
+        <p><span class="verse-number">3.</span> innaka laminal-mursalīn</p>
+        <p><span class="verse-number">4.</span> 'alā ṣirāṭim mustaqīm</p>
+        <p><span class="verse-number">5.</span> tanzīlal-'azīzir-raḥīm,</p>
+        <p><span class="verse-number">6.</span> litunżira qaumam mā unżira ābā`uhum fa hum gāfilụn</p>
+        <p><span class="verse-number">7.</span> laqad ḥaqqal-qaulu 'alā akṡarihim fa hum lā yu`minụn</p>
+        <p><span class="verse-number">8.</span> innā ja'alnā fī a'nāqihim aglālan fa hiya ilal-ażqāni fa hum muqmaḥụn</p>
+        <p><span class="verse-number">9.</span> wa ja'alnā mim baini aidīhim saddaw wa min khalfihim saddan fa agsyaināhum fa hum lā yubṣirụn</p>
+
+        <div class="prayer-box">
+            <strong>Allahumma yaa man nuuruhuu fii sirri wa sarrihii fii kholqihii akhfidznii 'an a'yunin nadzriina wa quluubil khasidiina walbaghiina kamaa khafadztar ruuha fiiljasadi innaka 'alaa kulli syaiin qodir (3x)</strong>
+        </div>
+
+        <p><span class="verse-number">10.</span> wa sawā`un 'alaihim a anżartahum am lam tunżir-hum lā yu`minụn</p>
+        <p><span class="verse-number">11.</span> innamā tunżiru manittaba'aż-żikra wa khasyiyar-raḥmāna bil-gaīb, fa basysyir-hu bimagfiratiw wa ajring karīm</p>
+        <p><span class="verse-number">12.</span> innā naḥnu nuḥyil-mautā wa naktubu mā qaddamụ wa āṡārahum, wa kulla syai`in aḥṣaināhu fī imāmim mubīn</p>
+        <p><span class="verse-number">13.</span> waḍrib lahum maṡalan aṣ-ḥābal-qaryah, iż jā`ahal-mursalụn</p>
+        <p><span class="verse-number">14.</span> iż arsalnā ilaihimuṡnaini fa każżabụhumā fa 'azzaznā biṡāliṡin fa qālū innā ilaikum mursalụn</p>
+        <p><span class="verse-number">15.</span> qālụ mā antum illā basyarum miṡlunā wa mā anzalar-raḥmānu min syai`in in antum illā takżibụn</p>
+        <p><span class="verse-number">16.</span> qālụ rabbunā ya'lamu innā ilaikum lamursalụn</p>
+        <p><span class="verse-number">17.</span> wa mā 'alainā illal-balāgul-mubīn</p>
+        <p><span class="verse-number">18.</span> qālū innā taṭayyarnā bikum, la`il lam tantahụ lanarjumannakum wa layamassannakum minnā 'ażābun alīm</p>
+        <p><span class="verse-number">19.</span> qālụ ṭā`irukum ma'akum, a in żukkirtum, bal antum qaumum musrifụn</p>
+        <p><span class="verse-number">20.</span> wa jā`a min aqṣal-madīnati rajuluy yas'ā qāla yā qaumittabi'ul-mursalīn</p>
+        <p><span class="verse-number">21.</span> ittabi'ụ mal lā yas`alukum ajraw wa hum muhtadụn</p>
+        <p><span class="verse-number">22.</span> wa mā liya lā a'budullażī faṭaranī wa ilaihi turja'ụn</p>
+        <p><span class="verse-number">23.</span> a attakhiżu min dụnihī ālihatan iy yuridnir-raḥmānu biḍurril lā tugni 'annī syafā'atuhum syai`aw wa lā yungqiżụn</p>
+        <p><span class="verse-number">24.</span> innī iżal lafī ḍalālim mubīn</p>
+        <p><span class="verse-number">25.</span> innī āmantu birabbikum fasma'ụn</p>
+        <p><span class="verse-number">26.</span> qīladkhulil-jannah, qāla yā laita qaumī ya'lamụn</p>
+        <p><span class="verse-number">27.</span> bimā gafara lī rabbī wa ja'alanī minal-mukramīn</p>
+
+        <div class="prayer-box">
+            <strong>Allahumma akrimnii biqodloi khawaiji (14x)</strong> wa akrimnii bitho'atika ya allah<br>
+            <span class="note">(sebutkan hajatnya)</span>
+        </div>
+
+        <p><span class="verse-number">28.</span> wa mā anzalnā 'alā qaumihī mim ba'dihī min jundim minas-samā`i wa mā kunnā munzilīn</p>
+        <p><span class="verse-number">29.</span> ing kānat illā ṣaiḥataw wāḥidatan fa iżā hum khāmidụn</p>
+        <p><span class="verse-number">30.</span> yā ḥasratan 'alal-'ibād, mā ya`tīhim mir rasụlin illā kānụ bihī yastahzi`ụn</p>
+        <p><span class="verse-number">31.</span> a lam yarau kam ahlaknā qablahum minal-qurụni annahum ilaihim lā yarji'ụn</p>
+        <p><span class="verse-number">32.</span> wa ing kullul lammā jamī'ul ladainā muḥḍarụn</p>
+        <p><span class="verse-number">33.</span> wa āyatul lahumul-arḍul-maitatu aḥyaināhā wa akhrajnā min-hā ḥabban fa min-hu ya`kulụn</p>
+        <p><span class="verse-number">34.</span> wa ja'alnā fīhā jannātim min nakhīliw wa a'nābiw wa fajjarnā fīhā minal-'uyụn</p>
+        <p><span class="verse-number">35.</span> liya`kulụ min ṡamarihī wa mā 'amilat-hu aidīhim, a fa lā yasykurụn</p>
+        <p><span class="verse-number">36.</span> sub-ḥānallażī khalaqal-azwāja kullahā mimmā tumbitul-arḍu wa min anfusihim wa mimmā lā ya'lamụn</p>
+        <p><span class="verse-number">37.</span> wa āyatul lahumul-lailu naslakhu min-hun-nahāra fa iżā hum muẓlimụ</p>
+        <p><span class="verse-number">38.</span> wasy-syamsu tajrī limustaqarril lahā, <strong>Dzalika taqdiirul 'azizil 'aliim (14x)</strong></p>
+
+        <div class="prayer-box">
+            <strong>Allahumma innii as'aluka min fadlikal wasi'in naafi'i an tughnii an jami'i kholqika (14x)</strong>
+        </div>
+
+        <p><span class="verse-number">39.</span> wal-qamara qaddarnāhu manāzila ḥattā 'āda kal-'urjụnil-qadīm</p>
+        <p><span class="verse-number">40.</span> lasy-syamsu yambagī lahā an tudrikal-qamara wa lal-lailu sābiqun-nahār, wa kullun fī falakiy yasbaḥụn</p>
+        <p><span class="verse-number">41.</span> wa āyatul lahum annā ḥamalnā żurriyyatahum fil-fulkil-masy-ḥụn</p>
+        <p><span class="verse-number">42.</span> wa khalaqnā lahum mim miṡlihī mā yarkabụn</p>
+        <p><span class="verse-number">43.</span> wa in nasya` nugriq-hum fa lā ṣarīkha lahum wa lā hum yungqażụn</p>
+        <p><span class="verse-number">44.</span> illā raḥmatam minnā wa matā'an ilā ḥīn</p>
+        <p><span class="verse-number">45.</span> wa iżā qīla lahumuttaqụ mā baina aidīkum wa mā khalfakum la'allakum tur-ḥamụn</p>
+        <p><span class="verse-number">46.</span> wa mā ta`tīhim min āyatim min āyāti rabbihim illā kānụ 'an-hā mu'riḍīn</p>
+        <p><span class="verse-number">47.</span> wa iżā qīla lahum anfiqụ mimmā razaqakumullāhu qālallażīna kafarụ lillażīna āmanū a nuṭ'imu mal lau yasyā`ullāhu aṭ'amahū in antum illā fī ḍalālim mubīn</p>
+        <p><span class="verse-number">48.</span> wa yaqụlụna matā hāżal-wa'du ing kuntum ṣādiqīn</p>
+        <p><span class="verse-number">49.</span> mā yanẓurụna illā ṣaiḥataw wāḥidatan ta`khużuhum wa hum yakhiṣṣimụn</p>
+        <p><span class="verse-number">50.</span> fa lā yastaṭī'ụna tauṣiyataw wa lā ilā ahlihim yarji'ụn</p>
+        <p><span class="verse-number">51.</span> wa nufikha fiṣ-ṣụri fa iżā hum minal-ajdāṡi ilā rabbihim yansilụn</p>
+        <p><span class="verse-number">52.</span> qālụ yā wailanā mam ba'aṡanā mim marqadinā hāżā mā wa'adar-raḥmānu wa ṣadaqal-mursalụn</p>
+        <p><span class="verse-number">53.</span> ing kānat illā ṣaiḥataw wāḥidatan fa iżā hum jamī'ul ladainā muḥḍarụn</p>
+        <p><span class="verse-number">54.</span> fal-yauma lā tuẓlamu nafsun syai`aw wa lā tujzauna illā mā kuntum ta'malụn</p>
+        <p><span class="verse-number">55.</span> inna aṣ-ḥābal-jannatil-yauma fī syugulin fākihụn</p>
+        <p><span class="verse-number">56.</span> hum wa azwājuhum fī ẓilālin 'alal-arā`iki muttaki'ụn</p>
+        <p><span class="verse-number">57.</span> lahum fīhā fākihatuw wa lahum mā yadda'ụn</p>
+        <p><span class="verse-number">58.</span> <strong>salāmu, qaulam mir rabbir raḥīm (16x)</strong></p>
+
+        <div class="prayer-box">
+            <strong>Allahmma sallimna min aafaatid dunyaa wafitnatiha (19x)</strong>, wasalaamun minal muslimiina
+        </div>
+
+        <p><span class="verse-number">59.</span> wamtāzul-yauma ayyuhal-mujrimụn</p>
+        <p><span class="verse-number">60.</span> a lam a'had ilaikum yā banī ādama al lā ta'budusy-syaiṭān, innahụ lakum 'aduwwum mubīn</p>
+        <p><span class="verse-number">61.</span> wa ani'budụnī, hāżā ṣirāṭum mustaqīm</p>
+        <p><span class="verse-number">62.</span> wa laqad aḍalla mingkum jibillang kaṡīrā, a fa lam takụnụ ta'qilụn</p>
+        <p><span class="verse-number">63.</span> hāżihī jahannamullatī kuntum tụ'adụn</p>
+        <p><span class="verse-number">64.</span> iṣlauhal-yauma bimā kuntum takfurụn</p>
+        <p><span class="verse-number">65.</span> al-yauma nakhtimu 'alā afwāhihim wa tukallimunā aidīhim wa tasy-hadu arjuluhum bimā kānụ yaksibụn</p>
+        <p><span class="verse-number">66.</span> walau nasyā`u laṭamasnā 'alā a'yunihim fastabaquṣ-ṣirāṭa fa annā yubṣirụn</p>
+        <p><span class="verse-number">67.</span> walau nasyā`u lamasakhnāhum 'alā makānatihim famastaṭā'ụ muḍiyyaw wa lā yarji'ụn</p>
+        <p><span class="verse-number">68.</span> wa man nu'ammir-hu nunakkis-hu fil-khalq, a fa lā ya'qilụn</p>
+        <p><span class="verse-number">69.</span> wa mā 'allamnāhusy-syi'ra wa mā yambagī lah, in huwa illā żikruw wa qur`ānum mubīn</p>
+        <p><span class="verse-number">70.</span> liyunżira mang kāna ḥayyaw wa yaḥiqqal-qaulu 'alal-kāfirīn</p>
+        <p><span class="verse-number">71.</span> a wa lam yarau annā khalaqnā lahum mimmā 'amilat aidīnā an'āman fa hum lahā mālikụn</p>
+        <p><span class="verse-number">72.</span> wa żallalnāhā lahum fa min-hā rakụbuhum wa min-hā ya`kulụn</p>
+        <p><span class="verse-number">73.</span> wa lahum fīhā manāfi'u wa masyārib, a fa lā yasykurụn</p>
+        <p><span class="verse-number">74.</span> wattakhażụ min dụnillāhi ālihatal la'allahum yunṣarụn</p>
+        <p><span class="verse-number">75.</span> lā yastaṭī'ụna naṣrahum wa hum lahum jundum muḥḍarụn</p>
+        <p><span class="verse-number">76.</span> fa lā yaḥzungka qauluhum, innā na'lamu mā yusirrụna wa mā yu'linụn</p>
+        <p><span class="verse-number">77.</span> a wa lam yaral-insānu annā khalaqnāhu min nuṭfatin fa iżā huwa khaṣīmum mubīn</p>
+        <p><span class="verse-number">78.</span> wa ḍaraba lanā maṡalaw wa nasiya khalqah, qāla may yuḥyil-'iẓāma wa hiya ramīm</p>
+        <p><span class="verse-number">79.</span> qul yuḥyīhallażī ansya`ahā awwala marrah, wa huwa bikulli khalqin 'alīm</p>
+        <p><span class="verse-number">80.</span> allażī ja'ala lakum minasy-syajaril-akhḍari nāran fa iżā antum min-hu tụqidụn</p>
+        <p>a wa laisallażī khalaqas-samāwāti wal-arḍa biqādirin 'alā ay yakhluqa miṡlahum, balā</p>
+
+        <div class="prayer-box">
+            Balaa wallahu a'laa an yaqdliya lii khajatii wa fayaf'al lii kadzaa<br><br>
+            <strong>Allahummaj'al lii min amrii farajan wa marjan warzuqnii min khaitsu la yakhtasib warzuqnii min amrii yusraa (14x)</strong>
+        </div>
+
+        <p><span class="verse-number">81.</span> a wa laisallażī khalaqas-samāwāti wal-arḍa biqādirin 'alā ay yakhluqa miṡlahum, balā wa huwal-khallāqul-'alīm</p>
+        <p><span class="verse-number">82.</span> innamā amruhū iżā arāda syai`an ay yaqụla lahụ kun fa yakụn</p>
+        <p><span class="verse-number">83.</span> fa sub-ḥānallażī biyadihī malakụtu kulli syai`iw wa ilaihi turja'ụn.</p>
+
+        <div class="section-break"></div>
+
+        <h2>=== Seribu Dinar ===</h2>
+        <p class="italic text-center">Wa may yattaqillaha yaj al-lahu makhraja. Wa yarzuq-hu min aisu la yahtasib, wa may yatawakkal alallahi fa huwa hasbuh, innallaha baligu amrih, qad ja alallahu likulli syai in qadra.</p>
+
+        <div class="section-break"></div>
+
+        <h2>=== Surat Al Baqarah 284-286 ===</h2>
+        
+        <p><span class="verse-number">284.</span> Lillaahi maa fissamaawaati wa maa fil ardhi; wa in tubduu maa fiii anfusikum aw tukhfuuhu yuhaasibkum bihil laah; fayaghfiru li mayyasyaaa-u wa yu'adzzibu may yasyaaa-u, wallaahu 'alaa kulli syai in qadiir.</p>
+        
+        <p><span class="verse-number">285.</span> Aamanar-Rasuulu bimaaa unzila ilaihi mir-Rabbihii walmu'minuun; Kullun Aamana billaahi wa Malaaa-ikatihii wa kutubihii wa Rusulih, laa nufarriqu baina ahadim-mir-Rusulihii wa qooluu sami'naa wa atha'naa ghufraanaka Rabbanaa wa ilaikal-mashiir.</p>
+        
+        <p><span class="verse-number">286.</span> Laa yukalliful-laahu nafsan illaa wus'ahaa; lahaa maa kasabat wa 'alaihaa maktasabat; Rabbanaa la tu'aakhidznaa in nasiinaaa aw akhtaa-naa; Rabbanaa wa laa tahmil-'alainaaa ishran kamaa hamaltahuu 'alal-ladziina min qablinaa; Rabbanaa wa laa tuhammilnaa maa laa Thooqatalanaa bih, wa'fuannaa waghfirlanaa warhamnaa, Anta Maulanaa Fanshurnaa 'alal-qoumil-Kaafiriin.</p>
+
+        <div class="section-break"></div>
+
+        <h2>=== DOA ===</h2>
+        
+        <div class="prayer-box">
+            <p>Allahumma innaa nastahfidzhuka wa nastaudi'uka diinana wa anfusanaa wa ahlanaa wa aulaadanaa wa amwaalanaa wa kulla syai'in a'thaitanaa.</p>
+
+            <p>Allahummaj'alnaa wa iyyaahum fii kanafika wa amaanika wa jiwaarika wa 'iyaadzika min kulli syaithaanim mariid wa jabbaarin' aniid wa dzii 'ainin wa dzii baghyin wa min syarri kulli dzii syarrin innaka 'alaa kulli syai'in qadiir.</p>
+
+            <p>Allahumma jammilnaa bil'aafiyati was salaamati wa haqqiqnaa bit taqwaa wal istiqaamati wa a'idznaa min muujibaatin nadaamati innaka samii'ud du'aa'i.</p>
+
+            <p>Allahummaghfirlanaa wa li waalidiina wa li aulaadinaa wa li masyaayikhinaa wa li ikhwaaniaa fiddiini wa li ashhaabinaa wa ahbaabinaa wa liman ahabbanaa fiika wa liman ahsana ilainaa wa lil mukminiina wal mukminaati wal musliminiina wal muslimaati ya rabbal 'aalamiin.</p>
+
+            <p>Washalli allahumma 'alaa abdika warasuulika sayyidinaa wamaulanaa muhammadin wa 'ala alihi washahbihi wasallam.</p>
+
+            <p>Warzuqnaa kamaalal mutaaba'ati lahu dhaahiran wa baathinan fii 'aafiyatin wa salaamatin birahmatika yaa arhamar raahimiin.</p>
+
+            <p class="font-bold italic mt-4">Laa haula walaa quwwata illaa billaahil 'aliyyil 'adziimi, yaa qadiimu yaa daaimu yaa fardu yaa watru yaa ahadu yaa shamadu yaa hayyu yaa qayyuumu yaa dzal jalaali wal ikraami</p>
+
+            <p class="font-bold italic">Lā ilāha illallāhul halīmul karīmu, 'azhīmul halīmu, lā ilāha illallāhul 'aliyyul 'azhīmu. subhāna rabbil 'arsyil 'azhīmi, walhamdu lillāhi rabbil 'ālamīn.</p>
+
+            <p class="font-bold italic">rabbana faghfirlana dzunubana wa kaffir anna 3x</p>
+
+            <p class="font-bold mt-4">Allaahumma shalli 'alaa sayyidinaa Muhammadinil alifil maʼluufi ujburnii haajatii 100X</p>
+            <span class="note">(Sebutkan hajat)</span>
+        </div>
+
+    </div>
+
+</body>
+</html>
